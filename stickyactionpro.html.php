@@ -3,8 +3,6 @@
     $bgcolor = get_option('stickyactionpro_bgcolor');
     $txtcolor = get_option('stickyactionpro_txtcolor');
     $size = get_option('stickyactionpro_size');
-    $blocks = get_option('stickyactionpro_blocks');
-
 ?>
 <style>
     :root {
@@ -26,7 +24,7 @@
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 9999;
+    z-index: 99999;
 }
 
 .nav-stickyactionpro .nav-content {

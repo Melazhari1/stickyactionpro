@@ -13,6 +13,10 @@ class Stickyactionpro{
 	}
 
     public function stickyactionpro(){
-        include 'stickyactionpro.html.php';
+        $blocks = get_option('stickyactionpro_blocks');
+
+        if( is_array($blocks) && count($blocks) > 0 ){
+            include 'stickyactionpro.html.php';
+        }
 	}
 }
